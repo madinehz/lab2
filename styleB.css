@@ -20,3 +20,7 @@ body {
     line-height: 150px;
     cursor: pointer;
 }
+.a {
+    background-color: #ffff00; 
+    /* Yellow for box A in style B */
+}
