@@ -30,7 +30,21 @@ body {
     display: inline;
 }
 /* Hover effects */
-.a:hover, .b:hover, .c:hover, .d:hover, .e:hover {
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover{
     color: #daa520; 
     /* Goldenrod */
+}
+/* Final box (F) fixed at bottom right */
+.f {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
