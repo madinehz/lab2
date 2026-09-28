@@ -6,3 +6,17 @@ body {
     position: relative;
     min-height: 100vh;
 }
+
+/* Boxes A to E style */
+.a, .b, .c, .d, .e {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    margin-right: 10px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    cursor: pointer;
+}
