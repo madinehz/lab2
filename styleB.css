@@ -24,3 +24,13 @@ body {
     background-color: #ffff00; 
     /* Yellow for box A in style B */
 }
+
+.a p {
+    margin: 0;
+    display: inline;
+}
+/* Hover effects */
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover {
+    color: #daa520; 
+    /* Goldenrod */
+}
