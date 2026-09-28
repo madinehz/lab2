@@ -17,7 +17,10 @@ body {
     font-size: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.f{
+  align-items: center;
 }
 
 .a p {
