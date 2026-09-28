@@ -1,3 +1,4 @@
+/* Main body styling with padding and relative positioning */
 body {
     margin: 0;
     padding: 20px;
@@ -7,34 +8,35 @@ body {
     min-height: 100vh;
 }
 
-/* Boxes A to E style */
+/* Base styles for boxes A through E to arrange them horizontally */
 .a, .b, .c, .d, .e {
     display: inline-block;
+    vertical-align: top;
     width: 100px;
     height: 150px;
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
     margin-right: 10px;
     font-size: 40px;
-    text-align: center;
-    line-height: 150px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
     cursor: pointer;
 }
+
+/* Specific yellow background for box A */
 .a {
     background-color: #ffff00; 
-    /* Yellow for box A in style B */
 }
 
-.a p {
-    margin: 0;
-    display: inline;
-}
-/* Hover effects */
-.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover{
+/* Hover effect for all interactive boxes */
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover {
     color: #daa520; 
     /* Goldenrod */
 }
-/* Final box (F) fixed at bottom right */
+
+/* Fixed positioning for box F at the bottom-right corner */
 .f {
     display: inline-block;
     width: 100px;
@@ -42,8 +44,10 @@ body {
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
     font-size: 40px;
-    text-align: center;
-    line-height: 150px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
     position: fixed;
     bottom: 20px;
     right: 20px;
